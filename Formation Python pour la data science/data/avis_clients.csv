@@ -1,0 +1,813 @@
+id_avis;id_client;id_produit;date_avis;note;recommande;commentaire
+1;89;9;10/05/2025;2;non;Livraison lente
+2;27;13;04/07/2025;1;non;Produit défectueux
+3;213;26;11/07/2025;4;oui;Satisfait
+4;183;3;14/03/2025;5;Non;Parfait, je recommande
+5;55;5;12/07/2024;3;OUI;Sans plus
+6;263;19;02/10/2025;3;Non;Sans plus
+7;104;7;09/07/2025;1;non;Produit défectueux
+8;120;27;05/12/2024;1;non;Très déçu
+9;232;1;22/09/2024;;Non;Excellent !
+10;153;26;15/10/2024;1;Non;Très déçu
+11;211;2;10/07/2024;4;Oui;Satisfait
+12;277;20;15/07/2025;5;oui;Excellent !
+13;143;24;25/03/2024;5;oui;Parfait, je recommande
+14;7;19;02/04/2025;5;Oui;Parfait, je recommande
+15;295;16;01/06/2024;4;OUI;Satisfait
+16;285;9;06/05/2024;5;oui;
+17;139;17;28/01/2024;4;OUI;Satisfait
+18;238;7;11/01/2025;5;Non;Parfait, je recommande
+19;261;1;23/08/2025;3;OUI;Sans plus
+20;115;19;28/09/2024;4;Oui;Satisfait
+21;281;2;06/06/2024;4;Non;
+22;129;9;13/06/2024;3;Oui;Correct
+23;182;17;20/09/2025;5;oui;Parfait, je recommande
+24;9;15;28/07/2024;4;OUI;Bon produit
+25;50;19;09/04/2025;1;non;Produit défectueux
+26;224;15;20/01/2025;3;non;Sans plus
+27;59;22;26/11/2024;5;Oui;Parfait, je recommande
+28;268;24;25/06/2024;5;oui;Excellent !
+29;67;27;26/09/2025;4;OUI;Satisfait
+30;142;4;21/08/2025;5;Non;Excellent !
+31;113;6;29/03/2025;3;Oui;Sans plus
+32;193;23;13/10/2025;5;OUI;Excellent !
+33;247;10;26/06/2025;4;oui;Bon produit
+34;228;7;31/12/2025;5;Oui;Parfait, je recommande
+35;110;22;02/11/2025;4;Oui;Satisfait
+36;272;26;16/04/2024;2;non;Moyen
+37;76;13;19/01/2025;3;OUI;Sans plus
+38;281;19;07/02/2024;4;Non;Bon produit
+39;236;24;10/06/2024;3;oui;Sans plus
+40;258;19;11/02/2024;2;Non;Moyen
+41;294;2;20/02/2024;3;Non;Sans plus
+42;278;21;29/10/2025;5;Non;Excellent !
+43;283;9;06/05/2025;5;Non;Parfait, je recommande
+44;37;21;14/04/2025;5;Non;Parfait, je recommande
+45;104;19;05/07/2025;3;Oui;Correct
+46;108;15;24/06/2025;5;Oui;Parfait, je recommande
+47;165;16;22/09/2025;4;Oui;Satisfait
+48;200;6;04/03/2025;;non;Bon produit
+49;282;17;12/04/2025;4;Non;Bon produit
+50;80;1;16/12/2025;4;Non;Satisfait
+51;122;19;26/02/2025;1;Non;Très déçu
+52;15;21;21/12/2024;2;Non;Moyen
+53;291;21;20/07/2025;2;non;Moyen
+54;69;27;11/02/2024;4;Non;Bon produit
+55;199;23;16/09/2025;5;Oui;Excellent !
+56;68;8;21/05/2025;1;Non;Très déçu
+57;119;8;22/10/2024;4;non;Satisfait
+58;233;2;19/09/2024;4;OUI;Bon produit
+59;168;15;21/06/2025;4;non;Satisfait
+60;116;7;26/12/2024;5;OUI;Parfait, je recommande
+61;250;15;12/09/2024;;Non;Très déçu
+62;112;4;10/12/2024;5;OUI;Parfait, je recommande
+63;163;15;07/12/2025;4;Oui;Satisfait
+64;48;17;18/05/2025;2;Non;Livraison lente
+65;144;9;29/02/2024;5;OUI;Parfait, je recommande
+66;276;7;01/05/2024;5;Oui;
+67;248;2;12/11/2025;1;Non;Très déçu
+68;166;2;05/08/2024;5;Non;Parfait, je recommande
+69;202;27;14/07/2025;2;Non;Moyen
+70;225;15;08/10/2025;4;Non;Bon produit
+71;73;8;30/10/2025;5;OUI;Parfait, je recommande
+72;263;10;10/10/2024;4;Non;Satisfait
+73;151;1;08/09/2024;4;Non;Satisfait
+74;12;3;01/04/2025;5;oui;Excellent !
+75;246;7;08/06/2025;4;non;Bon produit
+76;182;19;08/06/2025;5;OUI;Parfait, je recommande
+77;83;20;30/11/2025;5;oui;Parfait, je recommande
+78;261;13;09/08/2025;3;oui;Correct
+79;46;11;09/08/2025;2;non;Livraison lente
+80;117;8;12/07/2024;4;OUI;Bon produit
+81;191;3;31/07/2025;4;OUI;Satisfait
+82;299;14;16/02/2025;4;Oui;Satisfait
+83;154;10;11/02/2025;5;Non;Parfait, je recommande
+84;63;12;23/10/2025;4;non;Satisfait
+85;43;21;27/05/2025;;OUI;Bon produit
+86;227;1;24/12/2024;4;Oui;Bon produit
+87;40;17;25/11/2025;5;Oui;Parfait, je recommande
+88;37;21;03/11/2024;4;Oui;Bon produit
+89;154;27;21/10/2024;5;Non;Parfait, je recommande
+90;30;23;10/09/2025;5;OUI;Excellent !
+91;231;10;10/02/2024;5;oui;Excellent !
+92;148;22;28/10/2025;4;oui;Bon produit
+93;15;26;18/06/2024;5;Non;Parfait, je recommande
+94;16;19;06/11/2025;5;non;Parfait, je recommande
+95;96;4;08/08/2025;5;oui;Parfait, je recommande
+96;236;4;20/09/2025;4;Non;Satisfait
+97;40;1;05/06/2024;4;OUI;Satisfait
+98;143;6;16/02/2024;5;oui;Excellent !
+99;113;9;04/10/2025;2;Non;Moyen
+100;107;24;07/04/2025;5;Non;Excellent !
+101;250;12;08/10/2025;5;Oui;Excellent !
+102;232;20;28/03/2024;4;OUI;Bon produit
+103;142;27;03/03/2025;4;Oui;Satisfait
+104;85;7;22/09/2024;3;OUI;Correct
+105;203;12;03/04/2025;4;OUI;Bon produit
+106;193;27;08/03/2024;5;Oui;Parfait, je recommande
+107;66;13;25/08/2024;3;Oui;Sans plus
+108;196;20;24/10/2025;5;OUI;Parfait, je recommande
+109;81;21;20/07/2024;4;Non;Satisfait
+110;135;26;18/04/2024;4;OUI;
+111;281;11;17/01/2024;1;Non;Produit défectueux
+112;107;27;18/10/2024;;OUI;Satisfait
+113;205;16;07/06/2024;5;oui;Excellent !
+114;154;16;17/09/2024;4;oui;Bon produit
+115;185;9;05/02/2025;3;Oui;Sans plus
+116;150;19;04/08/2024;5;oui;Parfait, je recommande
+117;134;23;08/09/2025;2;non;Livraison lente
+118;163;7;20/03/2024;;oui;Bon produit
+119;299;11;02/11/2024;3;oui;Sans plus
+120;223;14;21/04/2024;4;non;Bon produit
+121;271;26;31/01/2025;1;Non;Très déçu
+122;275;16;20/09/2024;2;Non;Livraison lente
+123;44;11;18/04/2024;3;Oui;Sans plus
+124;247;18;12/03/2025;3;oui;Correct
+125;8;16;29/07/2025;5;Oui;Parfait, je recommande
+126;208;21;05/07/2025;2;non;Livraison lente
+127;170;25;24/04/2025;3;Oui;Sans plus
+128;2;5;28/03/2025;4;non;Bon produit
+129;37;12;10/10/2024;3;oui;Correct
+130;18;2;22/07/2024;1;Non;Très déçu
+131;258;14;23/12/2024;3;OUI;Correct
+132;71;6;05/11/2024;5;Oui;Excellent !
+133;79;1;03/03/2025;3;Non;Sans plus
+134;162;3;03/10/2024;1;non;Très déçu
+135;206;14;26/09/2024;1;Non;Très déçu
+136;70;9;22/02/2024;;Non;Livraison lente
+137;67;6;25/11/2025;3;oui;Correct
+138;72;21;12/02/2024;4;Oui;Bon produit
+139;59;25;14/08/2024;5;OUI;Parfait, je recommande
+140;295;4;30/07/2024;3;oui;Correct
+141;265;13;13/05/2024;4;oui;Bon produit
+142;131;11;11/03/2025;3;OUI;Sans plus
+143;156;6;10/06/2025;2;non;Livraison lente
+144;153;20;12/04/2025;5;Non;Excellent !
+145;299;17;30/03/2025;3;Non;Correct
+146;28;24;03/09/2025;3;OUI;Correct
+147;233;21;01/12/2025;4;Non;
+148;294;18;28/10/2025;3;OUI;Correct
+149;119;12;04/03/2025;4;Oui;Satisfait
+150;197;13;28/01/2025;5;OUI;Excellent !
+151;200;6;27/01/2025;3;oui;Correct
+152;214;14;17/11/2024;4;Oui;Satisfait
+153;190;8;26/09/2024;4;Non;Satisfait
+154;227;25;18/10/2024;2;non;Livraison lente
+155;120;11;15/08/2024;5;non;Parfait, je recommande
+156;296;18;27/12/2024;2;Non;Moyen
+157;199;16;12/09/2025;3;oui;Sans plus
+158;244;3;23/06/2024;2;non;Livraison lente
+159;281;8;11/12/2024;5;OUI;Excellent !
+160;147;14;29/07/2025;5;OUI;Parfait, je recommande
+161;296;1;12/03/2025;3;Oui;Sans plus
+162;76;10;16/08/2025;5;Non;Excellent !
+163;280;26;18/11/2025;4;Oui;Satisfait
+164;115;22;10/06/2025;2;Non;Moyen
+165;264;21;03/08/2024;4;Non;Bon produit
+166;12;16;15/08/2024;1;non;Très déçu
+167;242;23;03/07/2024;4;Oui;Bon produit
+168;217;27;22/05/2025;3;non;Correct
+169;72;13;22/10/2024;4;non;Bon produit
+170;63;10;25/02/2025;2;Non;Livraison lente
+171;227;13;21/07/2024;5;OUI;Parfait, je recommande
+172;297;27;24/10/2025;5;oui;Parfait, je recommande
+173;152;12;05/03/2025;5;oui;
+174;236;5;05/09/2025;4;non;Satisfait
+175;203;27;23/08/2025;1;non;Très déçu
+176;57;6;02/11/2025;;Non;Parfait, je recommande
+177;291;15;14/04/2024;5;non;Parfait, je recommande
+178;14;14;13/12/2025;4;non;Bon produit
+179;113;20;07/05/2024;3;Oui;Correct
+180;56;6;07/01/2025;5;non;Excellent !
+181;127;19;22/09/2025;2;non;Moyen
+182;42;7;02/09/2024;5;oui;Parfait, je recommande
+183;111;16;26/11/2025;5;Non;Parfait, je recommande
+184;106;22;21/10/2024;4;non;
+185;289;18;22/12/2025;3;OUI;Correct
+186;37;14;03/06/2025;5;non;Excellent !
+187;129;18;17/04/2024;1;Non;Produit défectueux
+188;145;19;15/11/2025;1;Non;Très déçu
+189;160;21;28/06/2024;1;Non;Très déçu
+190;214;14;15/05/2024;4;Non;Bon produit
+191;38;20;22/09/2025;5;Oui;Excellent !
+192;63;25;07/08/2024;3;OUI;Sans plus
+193;134;5;16/03/2024;3;oui;Sans plus
+194;218;2;27/12/2025;3;Non;Correct
+195;52;7;24/07/2025;4;Non;Bon produit
+196;247;4;12/04/2024;1;non;Très déçu
+197;70;26;24/04/2024;3;non;Sans plus
+198;9;5;20/11/2024;5;Non;Excellent !
+199;267;18;15/11/2025;2;Non;Livraison lente
+200;68;27;14/07/2025;2;non;Livraison lente
+201;249;23;31/03/2024;3;non;Correct
+202;244;17;26/01/2025;5;Non;Parfait, je recommande
+203;220;7;25/09/2025;3;Oui;Correct
+204;41;2;28/10/2025;4;Non;Satisfait
+205;57;22;06/02/2025;4;Oui;Satisfait
+206;78;4;05/01/2025;3;OUI;Correct
+207;122;3;23/12/2024;1;Non;Produit défectueux
+208;222;22;22/07/2024;1;non;Très déçu
+209;130;27;01/01/2025;4;OUI;Bon produit
+210;90;25;16/11/2025;5;Non;Parfait, je recommande
+211;2;5;24/10/2025;5;OUI;Parfait, je recommande
+212;34;23;06/05/2025;4;non;Satisfait
+213;184;14;17/02/2025;4;non;Satisfait
+214;114;2;15/02/2024;4;OUI;
+215;175;14;21/04/2025;4;OUI;Satisfait
+216;187;25;14/06/2025;3;OUI;Correct
+217;95;15;29/10/2025;5;Oui;Parfait, je recommande
+218;207;5;14/11/2025;2;non;Livraison lente
+219;133;13;23/01/2024;4;Non;Bon produit
+220;43;10;14/11/2025;4;OUI;Bon produit
+221;3;27;05/02/2025;5;non;Parfait, je recommande
+222;134;2;22/06/2025;5;Non;Excellent !
+223;2;21;11/03/2025;5;Non;Excellent !
+224;52;16;01/06/2024;5;non;Excellent !
+225;209;6;29/07/2024;;Non;Très déçu
+226;83;5;05/09/2024;4;oui;Bon produit
+227;285;5;31/10/2024;3;Oui;Sans plus
+228;80;17;30/07/2024;4;OUI;Satisfait
+229;140;3;23/02/2024;1;non;Produit défectueux
+230;60;8;30/01/2025;4;Oui;Bon produit
+231;178;22;14/02/2024;5;OUI;Excellent !
+232;227;5;01/07/2024;3;non;Correct
+233;4;26;06/04/2025;5;OUI;Excellent !
+234;185;16;06/08/2025;4;Oui;Satisfait
+235;15;5;21/07/2025;4;Oui;Bon produit
+236;154;4;12/10/2025;1;non;Produit défectueux
+237;40;20;20/12/2024;3;oui;
+238;135;10;09/05/2025;5;non;Parfait, je recommande
+239;148;24;19/10/2025;5;oui;Excellent !
+240;262;22;05/08/2025;3;non;Correct
+241;114;25;01/01/2025;1;non;Très déçu
+242;117;15;08/08/2025;5;non;Excellent !
+243;50;8;21/11/2025;;non;Parfait, je recommande
+244;123;27;02/03/2025;3;non;Correct
+245;170;18;10/12/2024;3;OUI;Sans plus
+246;293;10;29/12/2025;5;Oui;Parfait, je recommande
+247;1;27;19/03/2025;3;non;Sans plus
+248;26;23;15/11/2024;4;OUI;Bon produit
+249;279;14;30/01/2024;4;Non;Bon produit
+250;199;11;20/03/2025;5;Non;Excellent !
+251;140;12;13/04/2025;3;Oui;Correct
+252;74;15;14/03/2025;4;Oui;Bon produit
+253;287;3;16/11/2024;4;non;Bon produit
+254;113;21;04/02/2024;2;non;Moyen
+255;205;20;04/10/2025;4;oui;Satisfait
+256;155;15;08/06/2025;;oui;Sans plus
+257;5;18;29/10/2024;5;oui;Excellent !
+258;129;6;19/08/2024;5;OUI;
+259;141;3;24/04/2025;5;oui;Parfait, je recommande
+260;170;11;23/09/2024;2;non;Moyen
+261;174;11;28/04/2025;3;OUI;Correct
+262;256;19;05/02/2025;4;Oui;Bon produit
+263;189;15;17/03/2024;3;oui;Correct
+264;74;20;26/12/2024;3;non;Sans plus
+265;114;3;09/12/2024;4;non;Bon produit
+266;116;2;27/10/2024;4;Oui;Bon produit
+267;201;6;21/12/2025;4;non;Bon produit
+268;51;16;12/11/2024;4;oui;Bon produit
+269;14;10;13/04/2024;5;Non;Parfait, je recommande
+270;91;4;16/01/2025;4;oui;Bon produit
+271;196;20;16/08/2024;5;Non;Excellent !
+272;65;27;12/01/2025;4;Oui;Bon produit
+273;119;19;23/06/2024;2;Non;Livraison lente
+274;184;1;22/07/2024;4;oui;
+275;300;2;02/05/2024;4;non;Bon produit
+276;109;12;09/10/2025;4;oui;Satisfait
+277;44;20;18/03/2024;4;Oui;Bon produit
+278;95;23;01/09/2025;4;OUI;Satisfait
+279;75;6;28/12/2024;2;non;Livraison lente
+280;33;17;26/01/2025;5;OUI;
+281;231;19;12/10/2025;1;Non;Très déçu
+282;177;24;24/08/2024;1;Non;Très déçu
+283;198;21;18/10/2025;1;non;Produit défectueux
+284;274;25;01/04/2024;5;OUI;Parfait, je recommande
+285;226;24;04/11/2024;4;oui;Satisfait
+286;61;20;12/11/2024;1;non;Très déçu
+287;54;3;01/12/2025;5;Non;Parfait, je recommande
+288;216;23;28/03/2025;4;OUI;Bon produit
+289;242;21;18/03/2025;4;Oui;Bon produit
+290;295;6;04/08/2025;;Non;Produit défectueux
+291;29;14;23/11/2025;4;Oui;Bon produit
+292;126;3;06/12/2025;2;Non;Livraison lente
+293;281;22;11/04/2025;4;Oui;Satisfait
+294;245;21;27/03/2025;4;oui;Satisfait
+295;78;7;15/12/2025;3;Non;Correct
+296;300;5;28/03/2024;4;oui;Satisfait
+297;265;24;01/11/2024;5;non;Parfait, je recommande
+298;255;3;09/04/2024;4;OUI;Bon produit
+299;99;1;25/02/2024;4;Oui;Bon produit
+300;173;25;22/09/2024;4;non;Bon produit
+301;38;7;09/06/2024;5;OUI;Parfait, je recommande
+302;258;13;07/02/2025;;non;Bon produit
+303;246;25;16/07/2025;2;non;Moyen
+304;284;7;14/12/2025;4;Non;Satisfait
+305;37;11;17/08/2024;4;non;Bon produit
+306;51;25;22/10/2024;1;Non;Produit défectueux
+307;84;23;28/03/2025;5;Non;Parfait, je recommande
+308;228;26;27/08/2024;3;OUI;Correct
+309;250;6;27/10/2024;5;OUI;Parfait, je recommande
+310;128;16;23/01/2025;3;Non;Sans plus
+311;198;20;09/05/2025;5;Non;Parfait, je recommande
+312;262;10;08/09/2025;4;Non;Bon produit
+313;296;10;25/01/2025;2;Non;Moyen
+314;71;11;20/01/2024;3;Non;Correct
+315;215;11;10/02/2025;5;non;Parfait, je recommande
+316;74;27;03/12/2025;5;Oui;Parfait, je recommande
+317;230;14;02/06/2025;5;oui;Excellent !
+318;12;20;10/04/2025;5;non;Excellent !
+319;138;5;29/03/2024;3;oui;Correct
+320;191;1;23/07/2024;3;oui;Correct
+321;253;15;31/07/2025;3;Oui;Sans plus
+322;253;24;17/08/2025;5;Non;Excellent !
+323;267;10;29/12/2025;4;Oui;Satisfait
+324;118;21;01/10/2025;1;Non;Très déçu
+325;285;22;10/06/2024;3;oui;Correct
+326;80;23;12/03/2024;4;non;Satisfait
+327;203;16;27/02/2025;3;Non;Correct
+328;209;21;26/08/2024;4;oui;Satisfait
+329;58;3;04/06/2024;3;oui;Correct
+330;26;24;07/12/2025;;non;Parfait, je recommande
+331;138;5;15/02/2025;4;OUI;Bon produit
+332;109;14;21/04/2025;3;non;Sans plus
+333;261;6;22/12/2025;1;non;Produit défectueux
+334;44;23;13/08/2024;5;Non;Excellent !
+335;130;20;02/11/2024;5;Non;Excellent !
+336;190;14;27/10/2024;1;Non;
+337;75;9;12/10/2025;5;OUI;Excellent !
+338;111;12;06/03/2024;5;Oui;Excellent !
+339;170;10;18/02/2025;2;Non;Livraison lente
+340;272;23;22/12/2025;4;Oui;Bon produit
+341;269;24;19/06/2025;3;non;Correct
+342;35;2;29/10/2024;;Oui;Sans plus
+343;179;13;12/02/2025;3;non;Sans plus
+344;110;27;18/12/2024;1;Non;Très déçu
+345;112;16;27/11/2024;3;Non;Sans plus
+346;26;7;27/02/2024;4;non;Bon produit
+347;207;17;05/12/2024;2;non;Livraison lente
+348;250;27;20/04/2025;4;non;Satisfait
+349;20;5;02/05/2025;1;Non;Produit défectueux
+350;270;23;09/08/2025;;oui;Parfait, je recommande
+351;224;3;03/05/2024;5;OUI;Parfait, je recommande
+352;265;14;09/05/2024;4;Oui;Satisfait
+353;198;15;13/01/2025;5;non;Excellent !
+354;82;14;22/03/2024;4;Non;Bon produit
+355;15;11;17/07/2025;5;oui;Parfait, je recommande
+356;183;21;20/07/2025;3;Oui;Sans plus
+357;226;23;16/06/2024;4;non;Satisfait
+358;123;8;29/08/2025;3;non;Correct
+359;199;13;20/11/2025;3;oui;Correct
+360;247;11;09/08/2025;4;Oui;Bon produit
+361;277;27;15/10/2024;5;Non;Parfait, je recommande
+362;107;1;09/08/2024;4;Oui;Bon produit
+363;175;7;24/06/2024;5;Non;Excellent !
+364;197;14;12/09/2025;4;non;Bon produit
+365;36;21;28/01/2025;3;Oui;Correct
+366;266;12;17/11/2024;3;Non;
+367;3;26;25/07/2025;5;Non;Excellent !
+368;4;18;14/08/2025;5;Non;Excellent !
+369;5;21;26/04/2025;5;oui;Excellent !
+370;244;16;25/04/2025;5;Oui;Excellent !
+371;257;10;06/06/2024;5;OUI;Excellent !
+372;247;21;14/06/2025;;Non;Excellent !
+373;32;1;12/04/2025;1;Non;Très déçu
+374;73;23;26/10/2024;1;Non;Très déçu
+375;149;16;23/08/2024;3;Oui;Sans plus
+376;248;27;23/12/2025;5;Non;Parfait, je recommande
+377;219;4;09/12/2025;2;non;Moyen
+378;223;12;26/02/2025;4;Non;Satisfait
+379;21;20;30/09/2025;4;Non;Bon produit
+380;137;1;01/02/2024;3;non;Sans plus
+381;145;5;05/12/2025;2;non;Livraison lente
+382;235;20;07/08/2024;3;oui;Correct
+383;297;3;05/10/2024;5;oui;Excellent !
+384;186;23;01/11/2024;4;Non;Bon produit
+385;59;11;02/06/2025;4;non;Bon produit
+386;169;2;22/04/2024;1;Non;Très déçu
+387;78;14;24/01/2024;4;Oui;Bon produit
+388;179;18;22/08/2025;2;Non;Livraison lente
+389;173;20;25/04/2025;5;non;Excellent !
+390;148;17;10/06/2025;3;oui;Sans plus
+391;46;20;24/07/2024;4;Oui;Satisfait
+392;242;19;17/04/2024;4;OUI;Satisfait
+393;259;14;24/10/2025;3;Non;Sans plus
+394;123;26;22/06/2024;5;Oui;Excellent !
+395;254;23;05/06/2024;2;non;Livraison lente
+396;266;5;27/11/2024;4;Non;Satisfait
+397;86;24;08/06/2025;;oui;Sans plus
+398;18;23;06/12/2025;1;Non;Très déçu
+399;26;3;21/11/2024;4;Non;Bon produit
+400;13;18;26/12/2024;3;OUI;Correct
+401;254;4;28/02/2025;5;oui;Excellent !
+402;102;8;07/12/2024;5;Non;Excellent !
+403;103;26;28/01/2024;4;Oui;Bon produit
+404;20;19;08/03/2024;1;Non;Très déçu
+405;267;4;18/01/2024;4;OUI;Bon produit
+406;119;11;30/12/2025;3;OUI;Correct
+407;93;20;14/12/2025;4;Oui;Bon produit
+408;135;23;27/08/2024;1;non;Produit défectueux
+409;125;25;17/03/2025;4;Non;Bon produit
+410;13;17;08/04/2024;4;oui;Bon produit
+411;220;17;23/03/2024;5;OUI;Parfait, je recommande
+412;132;25;27/04/2025;5;Oui;
+413;113;3;14/04/2024;5;Oui;Parfait, je recommande
+414;109;22;21/09/2024;5;Oui;Parfait, je recommande
+415;104;20;17/04/2025;4;non;Satisfait
+416;49;18;04/09/2025;5;Oui;Parfait, je recommande
+417;217;20;09/09/2024;2;non;Livraison lente
+418;183;21;13/02/2024;5;Oui;Parfait, je recommande
+419;219;16;21/12/2025;5;Oui;Parfait, je recommande
+420;65;22;11/07/2025;4;non;Bon produit
+421;121;14;25/07/2025;4;non;Satisfait
+422;204;25;31/10/2025;1;Non;Produit défectueux
+423;89;19;25/06/2024;5;oui;Parfait, je recommande
+424;228;17;22/12/2025;4;non;Bon produit
+425;100;15;04/11/2025;4;Non;Bon produit
+426;167;6;24/07/2024;5;non;Excellent !
+427;298;19;18/09/2024;4;OUI;Bon produit
+428;175;20;17/05/2025;2;non;Livraison lente
+429;166;20;05/06/2025;2;non;Livraison lente
+430;97;18;27/01/2025;1;Non;Produit défectueux
+431;38;23;07/11/2024;;Non;Produit défectueux
+432;199;11;23/05/2025;2;Non;Moyen
+433;72;19;09/01/2025;5;Non;Parfait, je recommande
+434;274;18;10/04/2025;5;Oui;Excellent !
+435;158;17;28/03/2025;5;Oui;Excellent !
+436;185;25;28/02/2024;5;Oui;Excellent !
+437;93;17;16/04/2025;3;non;Sans plus
+438;238;2;17/10/2025;;oui;Bon produit
+439;101;1;20/05/2024;5;Oui;Excellent !
+440;7;3;04/11/2025;4;non;
+441;19;16;22/10/2024;5;oui;Excellent !
+442;177;5;18/07/2024;4;oui;Bon produit
+443;209;20;17/08/2024;5;Oui;Excellent !
+444;22;1;08/06/2025;4;oui;Bon produit
+445;134;26;09/07/2024;5;Non;Parfait, je recommande
+446;294;15;21/01/2025;2;Non;Livraison lente
+447;148;1;29/12/2025;5;OUI;Parfait, je recommande
+448;48;26;02/11/2025;5;OUI;
+449;189;14;09/12/2025;4;Non;Satisfait
+450;195;18;02/06/2025;1;Non;Produit défectueux
+451;130;12;26/08/2024;4;OUI;Satisfait
+452;144;13;16/11/2025;5;Non;Parfait, je recommande
+453;264;7;27/11/2025;4;OUI;Bon produit
+454;288;24;05/09/2024;5;OUI;Parfait, je recommande
+455;214;27;04/06/2025;4;oui;Satisfait
+456;154;17;30/11/2024;5;oui;Excellent !
+457;236;16;22/01/2025;1;non;Très déçu
+458;149;8;25/06/2024;5;Non;Excellent !
+459;129;10;20/09/2024;4;Non;Satisfait
+460;17;12;08/02/2024;5;OUI;Parfait, je recommande
+461;185;24;16/02/2024;5;non;Excellent !
+462;206;15;02/07/2024;4;Oui;Bon produit
+463;144;6;23/09/2025;4;oui;Bon produit
+464;229;8;30/05/2025;5;oui;Parfait, je recommande
+465;177;22;19/10/2025;3;Oui;Correct
+466;15;3;21/03/2025;4;oui;Satisfait
+467;180;4;11/01/2025;4;Oui;Bon produit
+468;3;10;31/12/2024;5;Oui;Excellent !
+469;49;10;16/08/2024;5;OUI;Excellent !
+470;72;15;16/09/2025;5;OUI;Excellent !
+471;252;20;18/12/2024;5;oui;Excellent !
+472;52;4;08/06/2024;5;oui;Parfait, je recommande
+473;141;6;28/02/2025;4;OUI;Bon produit
+474;136;5;01/08/2025;5;Non;Parfait, je recommande
+475;177;4;23/12/2025;5;Oui;Parfait, je recommande
+476;271;7;04/08/2025;4;OUI;Satisfait
+477;42;9;23/10/2025;3;Non;Correct
+478;42;19;08/09/2024;5;OUI;Excellent !
+479;156;12;15/01/2025;1;non;Très déçu
+480;17;25;17/03/2025;5;oui;Parfait, je recommande
+481;56;14;25/04/2025;3;oui;Correct
+482;198;4;06/06/2024;4;Oui;Satisfait
+483;192;14;03/07/2024;5;Non;Parfait, je recommande
+484;89;25;24/03/2025;5;Oui;Parfait, je recommande
+485;262;26;15/11/2025;4;Non;Satisfait
+486;31;14;21/08/2025;2;Non;Moyen
+487;221;8;04/02/2024;4;oui;Satisfait
+488;224;24;03/06/2025;5;Oui;Parfait, je recommande
+489;169;24;06/10/2025;4;non;Bon produit
+490;65;22;18/03/2025;5;Non;Excellent !
+491;52;6;22/08/2024;5;OUI;Excellent !
+492;272;18;11/07/2025;5;Oui;Parfait, je recommande
+493;47;22;08/11/2024;4;oui;Bon produit
+494;125;13;14/11/2024;2;non;Moyen
+495;75;18;12/07/2024;5;oui;Excellent !
+496;68;16;19/01/2025;3;OUI;Sans plus
+497;95;20;30/09/2025;4;Oui;Bon produit
+498;150;19;08/02/2024;5;OUI;Parfait, je recommande
+499;44;17;09/08/2024;3;OUI;Correct
+500;191;8;10/04/2024;4;Oui;Bon produit
+501;300;16;24/05/2025;4;Oui;Bon produit
+502;209;5;14/12/2025;3;non;Correct
+503;240;20;23/05/2024;5;Non;Parfait, je recommande
+504;232;7;28/06/2024;5;non;Excellent !
+505;73;22;05/10/2025;5;Oui;Excellent !
+506;251;8;09/10/2025;5;oui;Excellent !
+507;282;8;24/02/2025;2;Non;Livraison lente
+508;236;14;24/05/2025;4;Oui;Bon produit
+509;290;17;13/12/2025;4;Non;Satisfait
+510;150;12;15/09/2025;1;Non;Produit défectueux
+511;29;9;21/10/2024;;OUI;Excellent !
+512;91;1;28/05/2024;1;non;Très déçu
+513;285;20;19/02/2024;4;oui;Satisfait
+514;29;6;14/09/2025;4;OUI;Satisfait
+515;204;2;14/09/2024;4;Oui;Satisfait
+516;106;9;07/03/2025;1;non;Produit défectueux
+517;36;18;12/06/2024;3;oui;Sans plus
+518;50;2;01/04/2024;4;oui;Bon produit
+519;37;2;01/12/2024;4;Oui;Bon produit
+520;193;2;26/04/2024;3;non;Sans plus
+521;2;4;11/09/2024;2;Non;Livraison lente
+522;89;2;31/07/2025;;oui;Excellent !
+523;199;17;18/05/2024;5;Non;Excellent !
+524;5;8;18/07/2025;4;non;Bon produit
+525;246;8;07/02/2025;4;non;Bon produit
+526;262;19;23/11/2024;4;Non;Satisfait
+527;24;2;07/02/2024;4;OUI;Bon produit
+528;52;25;06/03/2024;1;non;Très déçu
+529;223;8;16/10/2024;4;non;Satisfait
+530;15;26;14/11/2025;5;non;Parfait, je recommande
+531;111;15;21/01/2024;2;non;Moyen
+532;300;25;06/04/2024;5;non;Parfait, je recommande
+533;156;12;06/10/2024;5;OUI;
+534;73;20;22/02/2025;4;OUI;Satisfait
+535;59;20;23/07/2024;4;Non;Satisfait
+536;121;15;15/04/2025;4;Oui;Satisfait
+537;218;8;04/09/2025;5;OUI;Parfait, je recommande
+538;206;25;08/02/2025;;non;Moyen
+539;191;12;04/06/2025;5;oui;Parfait, je recommande
+540;279;17;18/05/2025;2;non;Moyen
+541;72;7;18/12/2025;;non;Livraison lente
+542;155;10;18/02/2025;5;Non;
+543;105;24;25/08/2024;4;Oui;Satisfait
+544;57;3;27/04/2025;5;Non;Excellent !
+545;90;21;02/12/2025;5;Oui;Parfait, je recommande
+546;262;8;09/05/2024;3;non;Sans plus
+547;216;7;15/03/2025;5;OUI;Parfait, je recommande
+548;129;13;30/11/2024;1;non;Produit défectueux
+549;248;1;23/08/2024;4;Non;Bon produit
+550;143;18;27/08/2024;1;non;Très déçu
+551;117;23;04/04/2024;4;OUI;Bon produit
+552;75;25;14/09/2025;5;Oui;Excellent !
+553;30;13;17/12/2024;4;non;Bon produit
+554;23;9;06/03/2024;3;Non;Correct
+555;42;18;21/04/2025;4;oui;Bon produit
+556;144;16;21/05/2024;4;non;Bon produit
+557;275;4;16/04/2025;1;non;Très déçu
+558;246;11;08/12/2025;5;Non;Parfait, je recommande
+559;245;10;01/09/2025;5;non;
+560;30;11;28/06/2024;4;oui;Bon produit
+561;57;9;27/07/2025;4;Non;Satisfait
+562;183;17;21/04/2024;5;non;Excellent !
+563;5;14;02/04/2024;5;Non;Excellent !
+564;161;14;20/09/2024;4;Oui;Satisfait
+565;49;6;16/09/2025;3;Non;Sans plus
+566;230;27;15/07/2024;;Non;Excellent !
+567;157;20;10/03/2025;4;oui;Satisfait
+568;260;3;14/04/2024;5;non;Excellent !
+569;298;19;09/03/2024;4;Non;Bon produit
+570;59;25;14/08/2024;5;Oui;Parfait, je recommande
+571;253;12;26/07/2024;1;Non;Très déçu
+572;100;14;17/05/2024;4;oui;Bon produit
+573;270;11;15/10/2024;4;non;Bon produit
+574;24;10;20/12/2025;5;non;Excellent !
+575;84;20;14/01/2025;3;OUI;Sans plus
+576;171;17;01/09/2024;4;OUI;Satisfait
+577;121;22;18/09/2025;5;non;Excellent !
+578;143;24;25/08/2024;2;Non;Moyen
+579;176;4;07/04/2025;5;OUI;
+580;95;11;08/08/2025;5;Oui;Parfait, je recommande
+581;216;6;02/05/2024;5;oui;Excellent !
+582;20;4;27/12/2025;4;non;Satisfait
+583;134;12;05/10/2024;3;Oui;Correct
+584;285;9;05/12/2024;5;oui;Excellent !
+585;112;25;08/03/2024;3;non;Correct
+586;241;20;27/02/2025;1;non;Très déçu
+587;220;23;22/11/2025;4;OUI;Satisfait
+588;297;18;04/05/2025;5;oui;Parfait, je recommande
+589;17;18;01/10/2025;5;non;Excellent !
+590;236;16;27/10/2025;5;oui;Parfait, je recommande
+591;48;14;28/02/2025;4;non;Bon produit
+592;106;7;12/10/2025;1;non;Très déçu
+593;232;1;18/05/2025;5;oui;Excellent !
+594;116;23;10/11/2024;4;Oui;Bon produit
+595;88;21;07/07/2024;3;OUI;Correct
+596;269;26;06/09/2024;5;Oui;Parfait, je recommande
+597;126;6;11/09/2024;5;Non;Parfait, je recommande
+598;8;4;25/07/2025;3;Oui;Sans plus
+599;87;10;03/08/2025;3;OUI;Correct
+600;16;6;24/12/2025;5;OUI;Excellent !
+601;189;1;29/12/2025;5;non;Parfait, je recommande
+602;180;23;17/04/2024;4;Oui;
+603;173;14;21/10/2024;4;Oui;Satisfait
+604;254;12;30/07/2024;2;Non;Moyen
+605;164;10;27/10/2025;4;oui;Satisfait
+606;48;22;24/10/2025;5;non;Excellent !
+607;92;13;01/04/2024;4;Oui;Bon produit
+608;163;13;07/12/2024;4;non;Satisfait
+609;296;19;12/07/2024;3;Oui;Correct
+610;196;23;08/02/2025;3;Non;Sans plus
+611;86;19;04/01/2025;4;oui;Bon produit
+612;48;19;27/09/2024;4;Oui;Bon produit
+613;278;26;29/07/2024;4;non;Bon produit
+614;119;26;22/11/2024;5;oui;Parfait, je recommande
+615;77;10;17/01/2024;4;Non;Satisfait
+616;263;24;25/07/2024;5;OUI;Parfait, je recommande
+617;154;22;27/06/2025;3;non;Correct
+618;132;7;12/05/2025;5;OUI;Excellent !
+619;270;13;05/04/2025;5;non;Parfait, je recommande
+620;260;14;19/01/2025;5;OUI;Excellent !
+621;288;6;10/02/2025;3;non;Correct
+622;176;1;19/04/2025;4;OUI;Bon produit
+623;12;19;04/01/2025;4;oui;Satisfait
+624;246;27;22/10/2025;4;Oui;Bon produit
+625;217;10;14/12/2024;4;oui;Satisfait
+626;241;13;16/12/2024;4;Oui;Satisfait
+627;282;17;08/08/2024;4;Oui;Bon produit
+628;175;9;02/06/2024;5;non;Parfait, je recommande
+629;141;10;01/10/2025;3;Non;Sans plus
+630;223;14;19/04/2025;4;non;Satisfait
+631;210;23;03/05/2024;4;Non;Bon produit
+632;222;19;07/03/2024;5;Oui;Parfait, je recommande
+633;43;3;10/02/2024;4;oui;Satisfait
+634;230;4;24/12/2024;5;Non;Parfait, je recommande
+635;215;14;13/12/2024;5;Oui;Parfait, je recommande
+636;259;14;04/02/2024;1;Non;Produit défectueux
+637;150;9;13/08/2025;4;oui;Bon produit
+638;107;12;01/10/2025;3;Non;Sans plus
+639;143;11;01/02/2024;1;non;Produit défectueux
+640;296;26;05/09/2024;4;Non;Satisfait
+641;70;27;11/10/2024;3;oui;Sans plus
+642;275;19;04/07/2024;1;non;Produit défectueux
+643;18;5;18/12/2024;;Non;Moyen
+644;252;14;09/07/2024;4;Non;Satisfait
+645;37;21;11/03/2025;4;oui;Satisfait
+646;209;18;08/03/2024;4;Non;Bon produit
+647;180;8;03/02/2024;3;Oui;Correct
+648;73;15;30/07/2025;5;non;Parfait, je recommande
+649;44;26;01/10/2025;4;oui;Bon produit
+650;258;12;13/06/2024;5;Non;Parfait, je recommande
+651;193;25;15/05/2025;4;Oui;Bon produit
+652;213;5;07/03/2024;4;oui;Satisfait
+653;156;22;29/10/2024;3;oui;Sans plus
+654;194;24;21/09/2024;4;oui;Bon produit
+655;78;7;29/08/2024;4;OUI;Satisfait
+656;46;16;03/03/2024;5;Non;Excellent !
+657;229;10;27/10/2024;5;OUI;Parfait, je recommande
+658;220;6;06/12/2025;4;Non;Bon produit
+659;201;15;19/07/2025;4;OUI;Bon produit
+660;284;20;29/05/2025;4;Non;Satisfait
+661;192;20;20/10/2024;5;OUI;Excellent !
+662;258;23;22/12/2024;5;oui;Parfait, je recommande
+663;229;24;29/04/2025;5;OUI;Excellent !
+664;123;16;16/02/2025;5;Non;Parfait, je recommande
+665;145;1;12/10/2024;4;oui;Bon produit
+666;246;14;07/05/2025;5;OUI;Excellent !
+667;228;12;06/08/2024;;OUI;Correct
+668;242;25;14/08/2024;1;Non;Très déçu
+669;30;26;17/02/2024;4;Oui;Satisfait
+670;210;12;25/02/2025;5;OUI;Excellent !
+671;149;24;10/10/2024;3;OUI;Correct
+672;171;21;17/11/2025;4;Non;Satisfait
+673;93;7;08/12/2025;3;oui;Sans plus
+674;17;21;14/12/2025;4;Oui;Bon produit
+675;15;19;04/04/2024;3;Oui;Correct
+676;158;19;26/11/2025;5;OUI;Parfait, je recommande
+677;257;19;11/09/2025;1;non;Produit défectueux
+678;45;18;28/04/2024;5;OUI;Excellent !
+679;230;26;24/10/2024;5;Non;Parfait, je recommande
+680;157;16;18/04/2025;1;non;Très déçu
+681;210;17;27/05/2025;4;Oui;Satisfait
+682;299;14;27/02/2025;5;Non;Excellent !
+683;9;24;30/01/2025;5;oui;Parfait, je recommande
+684;192;1;07/07/2025;4;non;Bon produit
+685;85;23;09/09/2024;3;oui;Correct
+686;295;23;23/07/2024;5;Non;Parfait, je recommande
+687;9;11;25/10/2024;5;Non;Excellent !
+688;217;6;22/06/2024;4;Oui;Satisfait
+689;35;7;14/04/2024;1;non;
+690;249;10;20/04/2025;1;Non;Très déçu
+691;47;9;23/04/2025;4;non;Satisfait
+692;234;10;19/11/2024;3;oui;Correct
+693;135;10;29/04/2024;3;Oui;Correct
+694;116;26;14/06/2025;5;Non;Excellent !
+695;43;18;13/12/2025;5;Non;Parfait, je recommande
+696;255;16;19/11/2024;3;Oui;Correct
+697;105;12;02/04/2024;2;Non;Moyen
+698;264;12;02/08/2024;2;non;Livraison lente
+699;274;27;04/04/2024;5;OUI;Excellent !
+700;270;25;18/07/2025;5;OUI;Excellent !
+701;251;18;22/09/2025;5;OUI;Parfait, je recommande
+702;30;26;28/08/2025;5;non;Parfait, je recommande
+703;39;6;04/08/2025;5;Non;Parfait, je recommande
+704;266;27;07/05/2024;;Non;Satisfait
+705;92;7;18/07/2025;4;oui;Bon produit
+706;160;18;22/08/2025;4;Oui;Bon produit
+707;101;18;21/03/2024;5;OUI;Parfait, je recommande
+708;66;23;27/09/2025;3;oui;Sans plus
+709;53;23;28/09/2025;;OUI;Parfait, je recommande
+710;124;25;08/03/2024;5;non;Excellent !
+711;264;11;21/06/2024;3;Non;Correct
+712;45;10;01/03/2025;3;Oui;Correct
+713;171;21;13/01/2025;3;OUI;Correct
+714;33;11;30/08/2024;5;Oui;Excellent !
+715;158;10;25/01/2024;1;non;Produit défectueux
+716;52;2;07/10/2025;4;Non;Satisfait
+717;156;22;30/11/2024;4;OUI;Satisfait
+718;222;8;22/11/2024;4;OUI;Satisfait
+719;286;24;21/07/2024;2;Non;Moyen
+720;137;11;19/06/2024;4;Oui;Satisfait
+721;43;20;29/04/2024;3;Oui;Sans plus
+722;196;21;07/02/2025;5;non;
+723;270;21;29/05/2024;1;Non;Produit défectueux
+724;64;13;16/07/2025;2;Non;Livraison lente
+725;65;5;18/12/2025;5;Oui;Parfait, je recommande
+726;206;6;10/11/2025;4;Non;Satisfait
+727;16;17;31/07/2024;5;OUI;Parfait, je recommande
+728;45;24;18/01/2024;4;Oui;Satisfait
+729;72;22;25/10/2025;4;OUI;Satisfait
+730;68;18;18/10/2025;2;non;Moyen
+731;81;5;15/02/2024;5;Oui;Parfait, je recommande
+732;137;18;27/12/2024;5;non;Parfait, je recommande
+733;131;26;28/07/2024;5;non;Parfait, je recommande
+734;75;20;07/01/2025;5;Oui;Parfait, je recommande
+735;23;11;08/12/2025;4;non;Bon produit
+736;76;21;26/06/2025;;Non;Excellent !
+737;23;10;02/08/2025;5;Oui;Excellent !
+738;94;9;28/01/2024;5;Non;Parfait, je recommande
+739;245;9;20/04/2025;5;Non;Parfait, je recommande
+740;297;1;04/10/2024;1;Non;Produit défectueux
+741;133;7;20/02/2024;4;Oui;Satisfait
+742;182;14;31/05/2024;;oui;Sans plus
+743;262;15;08/02/2025;4;OUI;Satisfait
+744;122;3;12/08/2024;5;Non;Excellent !
+745;66;5;11/09/2025;4;Oui;Bon produit
+746;100;18;09/02/2025;5;Oui;Parfait, je recommande
+747;142;22;16/04/2025;4;Oui;Bon produit
+748;9;7;17/12/2024;3;Oui;Sans plus
+749;267;19;10/12/2024;5;oui;Excellent !
+750;292;10;25/11/2024;5;Oui;Excellent !
+751;289;24;03/03/2024;3;OUI;Correct
+752;66;18;16/09/2024;3;non;Sans plus
+753;210;16;22/08/2024;5;Oui;Parfait, je recommande
+754;65;22;21/02/2025;5;Non;Excellent !
+755;131;17;27/06/2025;5;Non;Parfait, je recommande
+756;170;13;20/12/2025;5;oui;Excellent !
+757;274;22;23/07/2024;4;oui;Bon produit
+758;1;25;07/05/2024;5;non;Excellent !
+759;192;7;26/02/2024;2;non;Livraison lente
+760;153;22;22/03/2025;4;Non;Satisfait
+761;258;1;01/10/2025;4;Non;Satisfait
+762;283;8;20/05/2025;3;OUI;Sans plus
+763;295;16;22/12/2024;4;oui;Bon produit
+764;103;3;18/05/2025;3;OUI;Sans plus
+765;169;20;19/10/2025;;oui;Parfait, je recommande
+766;235;9;13/04/2024;3;Oui;Sans plus
+767;198;22;23/06/2024;5;Non;Parfait, je recommande
+768;62;27;12/11/2025;3;Oui;Sans plus
+769;172;8;15/10/2024;4;non;Satisfait
+770;163;3;15/01/2025;4;Non;Satisfait
+771;207;15;10/07/2025;5;non;Parfait, je recommande
+772;5;26;06/03/2024;3;non;Correct
+773;259;27;21/07/2024;4;Oui;Bon produit
+774;99;27;22/02/2024;4;Oui;Satisfait
+775;80;6;28/10/2024;4;oui;Bon produit
+776;278;26;22/08/2024;4;OUI;Bon produit
+777;211;18;04/03/2024;4;non;Satisfait
+778;26;3;24/10/2025;4;non;Bon produit
+779;105;7;17/11/2024;3;non;Correct
+780;171;8;08/04/2025;1;Non;Produit défectueux
+781;270;13;27/02/2025;5;Non;Excellent !
+782;168;9;20/10/2024;5;Non;Excellent !
+783;300;5;20/02/2025;4;Oui;Satisfait
+784;137;24;02/03/2025;4;oui;Satisfait
+785;171;24;13/08/2024;2;non;Livraison lente
+786;33;4;19/09/2025;4;oui;Satisfait
+787;79;26;11/06/2025;4;OUI;Bon produit
+788;44;12;08/12/2024;3;oui;Correct
+789;255;15;28/12/2024;5;OUI;Excellent !
+790;82;13;19/07/2024;2;non;Livraison lente
+791;190;13;18/05/2025;3;non;Sans plus
+792;203;1;15/04/2025;3;non;Correct
+793;176;3;27/11/2025;5;non;Excellent !
+794;34;15;23/05/2025;4;OUI;Satisfait
+795;294;22;19/12/2025;1;non;Produit défectueux
+796;158;20;02/07/2024;2;non;Moyen
+797;220;9;10/10/2025;5;non;Excellent !
+798;126;17;04/11/2025;4;OUI;Satisfait
+799;228;14;07/01/2025;3;Non;Sans plus
+800;19;16;03/02/2024;4;OUI;Satisfait
+109;81;21;20/07/2024;4;Non;Satisfait
+449;189;14;09/12/2025;4;Non;Satisfait
+138;72;21;12/02/2024;4;Oui;Bon produit
+82;299;14;16/02/2025;4;Oui;Satisfait
+145;299;17;30/03/2025;3;Non;Correct
+339;170;10;18/02/2025;2;Non;Livraison lente
+382;235;20;07/08/2024;3;oui;Correct
+616;263;24;25/07/2024;5;OUI;Parfait, je recommande
+28;268;24;25/06/2024;5;oui;Excellent !
+786;33;4;19/09/2025;4;oui;Satisfait
+239;148;24;19/10/2025;5;oui;Excellent !
+476;271;7;04/08/2025;4;OUI;Satisfait
