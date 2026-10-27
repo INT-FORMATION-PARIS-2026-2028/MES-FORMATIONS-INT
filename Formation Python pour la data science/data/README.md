@@ -5,20 +5,21 @@ Les identifiants (`id_client`, `id_produit`, `id_commande`, `id_magasin`) sont p
 
 | Fichier | Format | Contenu |
 |---|---|---|
-| `formation_ventes.sql` | Script MySQL | Base `formation_ventes` : categories (5), produits (27), magasins (10), clients (300), commandes (2 000), lignes_commande (~3 900) + vue `v_ventes` |
+| `formation_ventes.sql` | Script MySQL | Base `formation_python_data` : categories (5), produits (27), magasins (10), clients (300), commandes (2 000), lignes_commande (~3 900) + vue `v_ventes` |
 | `avis_clients.csv` | CSV, séparateur `;`, UTF-8 | 812 avis clients (note 1-5, recommande, commentaire) |
 | `ressources_humaines.xlsx` | Excel, 3 feuilles | `Employes` (120), `Objectifs_2025` (CA objectif mensuel par magasin), `Magasins` |
 | `livraisons.txt` | Fichier plat à largeur fixe | ~1 000 livraisons des commandes web/mobile |
+| `sessions_web.json` | JSON imbriqué, UTF-8 | 600 sessions de navigation sur le site 2025 (appareil, localisation, liste des pages vues, achat) |
 
 ## Charger la base MySQL
 ```bash
 mysql -u root -p < formation_ventes.sql
 ```
-⚠️ Le script fait `DROP DATABASE IF EXISTS formation_ventes` puis recrée tout.
+⚠️ Le script fait `DROP DATABASE IF EXISTS formation_python_data` puis recrée tout.
 
 ```python
 from sqlalchemy import create_engine   # pip install sqlalchemy pymysql
-engine = create_engine("mysql+pymysql://root:MOT_DE_PASSE@localhost/formation_ventes")
+engine = create_engine("mysql+pymysql://root:MOT_DE_PASSE@localhost/formation_python_data")
 df_ventes = pd.read_sql("SELECT * FROM v_ventes", engine)
 ```
 
@@ -41,6 +42,21 @@ livraisons = pd.read_fwf(
 )
 ```
 
+### Lire le JSON imbriqué
+```python
+import json
+
+with open("data/sessions_web.json", encoding="utf-8") as f:
+    contenu = json.load(f)                      # dict Python
+
+# 1 ligne par session (les sous-objets deviennent appareil.type, localisation.ville, ...)
+sessions = pd.json_normalize(contenu["sessions"])
+
+# 1 ligne par page vue, en gardant des infos de la session
+pages = pd.json_normalize(contenu["sessions"], record_path="pages",
+                          meta=["id_session", "id_client", "source", ["appareil", "type"]])
+```
+
 ### Structure du fichier plat `livraisons.txt`
 | Colonne | Positions | Largeur | Remarque |
 |---|---|---|---|
@@ -58,10 +74,12 @@ livraisons = pd.read_fwf(
 - **ressources_humaines.xlsx** : 3 salaires manquants, 1 salaire aberrant (salaire annuel saisi au lieu du mensuel), ancienneté à calculer depuis `date_embauche`.
 - **Base MySQL** : emails et dates de naissance manquants (`NULL`) chez certains clients, `id_magasin` NULL pour les commandes hors magasin, commandes `Annulée` à exclure du CA.
 - **livraisons.txt** : dates en `AAAAMMJJ` à convertir, dates de livraison vides.
+- **sessions_web.json** : structure imbriquée à aplatir, `id_client` à `null` (visiteurs anonymes), `montant_panier` à `null` sans achat, `id_produit` présent seulement sur les pages produit.
 
 ## Idées d'analyses
 - CA par mois / catégorie / canal / région (`v_ventes`), marge avec `cout_achat`
 - Panier moyen, top clients, segmentation RFM
 - Délai moyen de livraison par transporteur (jointure livraisons ↔ commandes)
 - Note moyenne par produit / catégorie (jointure avis ↔ produits)
+- Taux de conversion par source / appareil, pages les plus vues, produits les plus consultés (`sessions_web.json`)
 - CA réalisé vs `Objectifs_2025` par magasin ; masse salariale par magasin

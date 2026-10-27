@@ -1,12 +1,12 @@
 -- =====================================================================
 -- Formation Python pour la Data Science - Base de données MySQL
--- Base : formation_ventes (enseigne fictive de vente multicanal)
--- Exécution : mysql -u root -p < formation_ventes.sql
+-- Base : formation_python_data (enseigne fictive de vente multicanal)
+-- Exécution : mysql -u root -p < formation_python_data.sql
 -- =====================================================================
 
-DROP DATABASE IF EXISTS formation_ventes;
-CREATE DATABASE formation_ventes CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE formation_ventes;
+DROP DATABASE IF EXISTS formation_python_data;
+CREATE DATABASE formation_python_data CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE formation_python_data;
 
 CREATE TABLE categories (
     id_categorie INT PRIMARY KEY,
